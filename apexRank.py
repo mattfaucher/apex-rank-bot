@@ -3,7 +3,7 @@ from discord.ext import commands
 from discord.utils import get
 import requests
 
-TOKEN = 'Njk4NjM3MjM2MTQ4ODk1NzU0.XpIvCA.JdidnxRXWIihGxGQEhN0hYG6jes'
+TOKEN = # YOUR TOKEN
 TRN_URL = 'https://public-api.tracker.gg/v2/apex/standard/profile/'
 
 client = commands.Bot(command_prefix='+')
@@ -39,7 +39,7 @@ async def rankme(ctx, platform, username):
     
     url = f'{TRN_URL}' + platform + '/' + username
     headers = {
-        'trn-api-key': "9491b869-848f-43d0-829a-37146e473c13",
+        'trn-api-key': "# YOUR TRN API KEY HERE",
         'cache-control': "no-cache"
     }
     response = requests.request("GET", url, headers=headers)
