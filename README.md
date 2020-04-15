@@ -7,4 +7,6 @@ commands +rankhelp to see the usage of the command +rankme
 You will need to register an token with discord for you own application, then register an application with TRN for an API
 KEY, enter those two values and BOOM, you have source code for an Apex Ranking Bot!
 
--matt
+Deployed on heroku
+
+-Matt
